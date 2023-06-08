@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  main {
+    width: 100%;
+  }
+  .header-bar {
+    width: 80%;
+    height: 60px;
+    display: flex;
+    margin-top: 60px;
+    font-family: "Balthazar", serif;
+  }
+  .header-bar img {
+    width: 139px;
+    height: 57px;
+    margin-left: 80px;
+  }
+  .header-item {
+    margin-left: 168px;
+  }
+  .header-bar ul {
+    list-style-type: none;
+    display: flex;
+  }
+  .header-bar ul li a {
+    font-size: 18px;
+    margin-left: 80px;
+    text-align: center;
+    line-height: 80px;
+    text-decoration: none;
+    color: #9b9595e5;
+  }
+  .header-bar ul li a:hover {
+    border-bottom: 5px solid #8071d0;
+    padding-bottom: 1px;
+  
+    color: black;
+  }
+  .header-bar button {
+    width: 160px;
+    height: 67px;
+    color: #a389cc;
+    background-color: #ffd8db;
+    margin-left: 300px;
+    font-weight: 900;
+    border-radius: 37px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    border: 1px solid #ffd8db;
+  }
+  .header-bar button:hover {
+    color: #ffd8db;
+    background-color: #a389cc;
+    border: none;
+  }
+  .container {
+    width: 80%;
+    height: auto;
+    margin-top: 120px;
+    display: flex;
+  }
+  .left-article {
+    display: flex;
+    margin-left: 150px;
+  }
+  .left-article h1 {
+    font-size: 64px;
+  }
+  .left-article h1 span {
+    color: #8071d0;
+  }
+  .left-article h6 {
+    font-size: 14px;
+    color: grey;
+    margin-top: 23px;
+  }
+  .left-article button {
+    width: 148px;
+    height: 70px;
+    color: #ffffff;
+    background-color: #5243c0;
+    margin-top: 36px;
+    font-weight: 900;
+    border-radius: 32px;
+    font-size: 14px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    border: none;
+    cursor: pointer;
+  }
+  .left-article button:hover {
+    background-color: #ffffff;
+    color: #5243c0;
+    border: 1px solid #5243c0;
+  }
+  .left-article img {
+    width: 65px;
+    height: 62px;
+    margin-bottom: -29px;
+  }
+  
+  .right-article img {
+    width: 750px;
+    height: 716px;
+  
+    margin-left: 127px;
+  }
+  
+  .bottom-item {
+    margin-top: 10px;
+    margin-top: -280px;
+    height: 415px;
+  }
+  .bottom-item div {
+    margin-left: 150px;
+  }
+  .hover-image {
+    width: 39px;
+    height: 36px;
+    margin-left: 7px;
+    margin-top: 9px;
+    margin-bottom: -11px;
+    display: none;
+  }
+  .user-item {
+    width: 448px;
+    height: 70px;
+    margin-bottom: 7px;
+    background-color: rgba(213, 221, 208, 0.65);
+    border-radius: 13px;
+  }
+  
+  .user-item:hover {
+    box-shadow: 5px 5px 5px #d3d3d3;
+    background-color: white;
+  }
+  .user-item:hover .tick-gray{
+    display: none;
+  }
+  .user-item:hover .hover-image{
+    display: inline-block;
+  }
+  .user-item .tick-gray {
+    margin-left: 7px;
+    margin-top: 9px;
+    margin-bottom: -11px;
+    width: 39px;
+    height: 36px;
+    border: none;
+  }
+  .user-item .tick-blue {
+    margin-left: 7px;
+    margin-top: 9px;
+    margin-bottom: -11px;
+    width: 39px;
+    height: 36px;
+    border: none;
+  }
+  .date {
+    font-size: 19px;
+    color: gray;
+    margin-left: 31px;
+  }
+  .color {
+    margin-top: 15px;
+    margin-left: 55px;
+    margin-bottom: -13px;
+    width: 42px;
+  }
+  .text {
+    font-size: 19px;
+    margin-left: 23px;
+    margin-bottom: -252px;
+  }
+  
+  .orange-color {
+    margin-left: 35px;
+  }
+  .blue-color {
+    margin-left: 75px;
+  }
+  .red-color {
+    margin-left: 95px;
+  }
+  .pink {
+    margin-left: 24px;
+    width: 19px;
+    height: 5px;
+    border: 5px solid #fed7da;
+    background-color: #fed7da;
+    display: inline-block;
+    border-radius: 26px;
+    margin-bottom: -2px;
+  }
+  .red {
+    margin-left: 24px;
+    width: 19px;
+    height: 5px;
+    border: 5px solid #fd6534;
+    background-color: #fd6534;
+    display: inline-block;
+    border-radius: 26px;
+    margin-bottom: -2px;
+  }
+  .green {
+    margin-left: 24px;
+    width: 19px;
+    height: 5px;
+    border: 5px solid #5243c0;
+    background-color: #5243c0;
+    display: inline-block;
+    border-radius: 26px;
+    margin-bottom: -2px;
+  }
+  .orange {
+    margin-left: 24px;
+    width: 19px;
+    height: 5px;
+    border: 5px solid #ffe4a0;
+    background-color: #ffe4a0;
+    display: inline-block;
+    border-radius: 26px;
+    margin-bottom: -2px;
+  }  
